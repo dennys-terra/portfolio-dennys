@@ -16,6 +16,7 @@ body {
 
 .container-header img {
     border-radius: 50%;
+    border: 1px solid grey;
     width: 300px;
 }
 
@@ -27,13 +28,21 @@ body {
 
 .container-header a {
     text-decoration: none;
-    color: white;
+    color: white transparent;
+}
+
+.container-header a:visited{
+    color: grey;
 }
     
 
 .container-header a:hover{
     border-bottom: 1px solid white;
     border-right: .1px solid grey;
+    color: white;
 }
     
 
+h1 {
+    color: white;
+}
