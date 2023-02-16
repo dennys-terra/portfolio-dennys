@@ -10,12 +10,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+h1,h2 {
+    color: white;
+}
+
+
+/* ----------header------------------ */
+
+
 .container-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid grey;
     padding: 50px;
+    height: 100vh;
 }
 
 .container-header img {
@@ -24,34 +34,7 @@ body {
     width: 300px;
 }
 
-.container-header ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    border: 1px solid grey;
-    padding: 5px 10px;
-}
 
-.container-header a {
-    text-decoration: none;
-    color: white transparent;
-}
-
-.container-header a:visited{
-    color: grey;
-}
-    
-
-.container-header a:hover{
-    border-bottom: 1px solid white;
-    border-right: .1px solid grey;
-    color: white;
-}
-    
-
-h1,h2 {
-    color: white;
-}
 
 .perfil {
     display: flex;
@@ -61,7 +44,96 @@ h1,h2 {
 }
 
 
-
-.hard {
-    margin-top: 100px;
+.perfil i {
+    font-size: 50px;
+    color: grey;
+    margin-left: 15px;
+    margin-top: 10px;
+    
 }
+
+.perfil i:hover{
+    border: none;
+    animation-name: icone;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+     animation-fill-mode: forwards;
+}
+    
+
+@keyframes icone{
+    to {
+      border-radius: 50%;
+      color: white;
+      transform: rotate(360deg);
+    }
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white transparent;
+}
+
+.nav a:visited{
+    color: grey;
+}
+    
+
+.nav a:hover{
+    border-bottom: 1px solid white;
+    border-right: .1px solid grey;
+    color: white;
+}
+/* -----------section-------------- */
+
+    
+section {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image:url(/img/FUNDO-SITE.png) ;
+    
+}
+
+section  h2 {
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 2em;
+   margin-bottom: 40px;
+   
+ }
+ 
+ section img{
+   width: 25%;
+ }
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
