@@ -1,17 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body {
     background-image: url("/img/FUNDO-SITE.png");
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid grey;
+    padding: 50px;
 }
 
 .container-header img {
@@ -24,6 +28,8 @@ body {
     display: flex;
     gap: 50px;
     list-style: none;
+    border: 1px solid grey;
+    padding: 5px 10px;
 }
 
 .container-header a {
@@ -43,6 +49,19 @@ body {
 }
     
 
-h1 {
+h1,h2 {
     color: white;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+
+
+.hard {
+    margin-top: 100px;
 }
