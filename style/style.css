@@ -124,8 +124,31 @@ section  h2 {
  }
 
 
+/* ---- section academy------ */
 
+.academy {
+    line-height: 30px;
+}
 
+.academy h2 {
+margin-bottom: 0;
+
+}
+
+.academy img {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.academy span {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-top: 15px;
+}
+
+.container-video{
+    margin-top: 15px;
+}
 
 
 
